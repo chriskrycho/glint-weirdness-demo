@@ -1,0 +1,13 @@
+{
+  "volta": {
+    "node": "16.18.0",
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "@glimmer/component": "^1.1.2",
+    "@glint/core": "^0.9.5",
+    "@glint/environment-ember-loose": "^0.9.5",
+    "@tsconfig/ember": "^1.0.1",
+    "typescript": "^4.8.4"
+  }
+}

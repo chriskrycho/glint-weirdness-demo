@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "paths": {
+      "*": [
+        "../../types/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../addon"
+    }
+  ],
+  "include": [
+    ".",
+    "../../types"
+  ],
+  "glint": {
+    "environment": "ember-loose"
+  }
+}

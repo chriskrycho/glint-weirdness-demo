@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/ember",
+  "include": [
+    "types"
+  ],
+  "references": [
+    {
+      "path": "./packages/app"
+    }
+  ]
+}
